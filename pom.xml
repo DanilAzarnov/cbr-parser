@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>mc.hibernatetutorial</groupId>
-    <artifactId>hibernateTutorial</artifactId>
+    <groupId>ru.azarnovdaniil</groupId>
+    <artifactId>cbr-parser</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>hibernateTutorial</name>
+    <name>cbr-parser</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -40,7 +40,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>mc.hibernatetutorial.parcer.App</mainClass>
+                    <mainClass>parcer.App</mainClass>
                     <arguments></arguments>
                 </configuration>
             </plugin>
