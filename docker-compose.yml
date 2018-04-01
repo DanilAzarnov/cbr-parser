@@ -1,0 +1,13 @@
+version: '3'
+services:
+  # start with 'docker-compose run cbr-parser'
+  cbr-parser:
+    build: .
+    stdin_open: true
+    tty: true
+    depends_on:
+      - postgres
+  postgres:
+    image: "postgres:9-alpine"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/
