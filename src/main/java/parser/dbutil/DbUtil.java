@@ -1,4 +1,4 @@
-package parcer.dbutil;
+package parser.dbutil;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -12,7 +12,7 @@ public class DbUtil {
         try {
             Configuration configuration = new Configuration();
 
-            sessionFactory = configuration.configure("hibernate_cfg.xml").buildSessionFactory();
+            sessionFactory = configuration.configure("hibernate.cfg.xml").buildSessionFactory();
         } catch (Throwable ex) {
             throw new ExceptionInInitializerError(ex);
         }

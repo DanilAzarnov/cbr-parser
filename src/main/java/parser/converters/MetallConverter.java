@@ -1,6 +1,6 @@
-package parcer.converters;
+package parser.converters;
 
-import parcer.model.Metall;
+import parser.model.Metall;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

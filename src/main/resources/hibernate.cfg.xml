@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.username">huser</property>
+        <property name="hibernate.connection.password">hpass</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://postgres:5432/db</property>
+
+        <property name="hbm2ddl.auto">update</property>
+
+        <mapping class="parser.model.Record"/>
+    </session-factory>
+</hibernate-configuration>
