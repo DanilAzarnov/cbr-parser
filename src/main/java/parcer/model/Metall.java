@@ -52,10 +52,6 @@ public class Metall {
 
     @Override
     public String toString() {
-        return "Metall{" +
-                "fromDate='" + fromDate + '\'' +
-                ", toDate='" + toDate + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+        return String.format("Metall{fromDate='%s', toDate='%s', name='%s'}", fromDate, toDate, name);
     }
 }

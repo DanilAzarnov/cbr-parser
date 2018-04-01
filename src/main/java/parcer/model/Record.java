@@ -70,11 +70,6 @@ public class Record {
 
     @Override
     public String toString() {
-        return "Record{" +
-                "date=" + date +
-                ", code=" + code  +
-                ", buy=" + buy +
-                ", sell=" + sell +
-                '}';
+        return String.format("Record{date=%s, code=%s, buy=%s, sell=%s}", date, code, buy, sell);
     }
 }
