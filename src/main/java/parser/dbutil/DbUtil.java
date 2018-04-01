@@ -1,4 +1,4 @@
-package parcer.dbutil;
+package parser.dbutil;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

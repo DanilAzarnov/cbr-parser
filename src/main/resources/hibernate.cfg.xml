@@ -5,10 +5,10 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.username">huser</property>
         <property name="hibernate.connection.password">hpass</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://127.0.0.1:5432/db</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://postgres:5432/db</property>
 
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="parcer.model.Record"/>
+        <mapping class="parser.model.Record"/>
     </session-factory>
 </hibernate-configuration>

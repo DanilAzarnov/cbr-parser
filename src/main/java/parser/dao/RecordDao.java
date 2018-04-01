@@ -1,8 +1,8 @@
-package parcer.dao;
+package parser.dao;
 
 import org.hibernate.Session;
-import parcer.dbutil.DbUtil;
-import parcer.model.Record;
+import parser.dbutil.DbUtil;
+import parser.model.Record;
 
 import java.util.List;
 

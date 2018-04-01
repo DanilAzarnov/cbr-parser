@@ -1,10 +1,10 @@
-package parcer.services;
+package parser.services;
 
 import org.springframework.stereotype.Service;
-import parcer.converters.MetallConverter;
-import parcer.dao.RecordDao;
-import parcer.model.Metall;
-import parcer.model.Record;
+import parser.converters.MetallConverter;
+import parser.dao.RecordDao;
+import parser.model.Metall;
+import parser.model.Record;
 
 import java.net.URL;
 import java.util.List;
@@ -12,9 +12,9 @@ import java.util.List;
 @Service
 public class MetallService {
 
-    private static final StringBuilder urlPath = new StringBuilder();
-
     public List<Record> getListMetallRecord(String fromDate, String toDate) {
+
+        StringBuilder urlPath = new StringBuilder();
 
         urlPath
                 .append("http://")

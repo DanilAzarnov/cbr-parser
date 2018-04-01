@@ -1,4 +1,4 @@
-package parcer.model;
+package parser.model;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
